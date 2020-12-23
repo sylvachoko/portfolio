@@ -1,0 +1,27 @@
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    /* all your styles for dark mode here */
+    html{
+      background-color:#121212;
+    }
+    body{
+    color: #f0f4f8;
+    }
+    .btn{
+      background-color: #152172;
+      color: #fff;
+      box-shadow: 0px 10px 10px #21296023;
+    }
+    .nav-toggle span{
+      background-color: #f0f4f8;
+    }
+    .nav-link{
+      color: #f0f4f8;
+    }
+    .nav-scrolled{
+      background: #121212c4;
+    }
+    
+}
+
+/* end dark mode */
