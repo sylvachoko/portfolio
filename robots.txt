@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /img/
+Disallow: /thankyou.php
+Disallow: /404.php
+Disallow: /forms/
+Disallow: /css/
+Disallow: /js/
+Disallow: /email/
+Disallow: /fonts/
+Disallow: /forms/
+Disallow: README.md
+Disallow: LICENSE
+Allow: /img/og.png
+Allow: /inc
+Sitemap: https://sylva.design/sitemap.xml

@@ -1,7 +1,7 @@
 <?php require_once 'forms/newsletter.php'; ?>
 <?php
   $currentPage = 'home';
-  $pageTitle = 'Sylva Nwachokor — Designer';
+  $pageTitle = 'I Build digital products and experiences.';
   include('inc/header.php');
 ?>
 
@@ -85,12 +85,8 @@
   </div>
 </section>
 
-<section id="newsletter">
+<!-- <section id="newsletter">
   <div class="newsletter container">
-    <!-- <div class="prop">
-      <img class="avatar" src="img/love-memoji.svg" alt="Sylva memoji">
-    </div> -->
-
     <div class="newsletter-form">
       <h1>Get notified when I launch something new</h1>
       <form action="" method="post" name="newsletter-form" class="newsletter-form">
@@ -109,11 +105,8 @@
         <?php } ?>
       </div>
     </div>
-    <!-- <div class="prop">
-      <img class="avatar" src="img/computer-memoji.svg" alt="Sylva memoji macbook">
-    </div> -->
   </div>
-</section>
+</section> -->
 
 <?php  include('inc/footer.php');?>
 

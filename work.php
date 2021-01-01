@@ -6,13 +6,27 @@
 
 <section id="home">
   <div class="home container">
-   <h1 style="width: 60%;">Here's some of the work I've done.</h1>
+   <h1 class="til-wit">Here's some of the work I've done.</h1>
   </div>
 </section>
 
 <section id="work">
   <div class="work container">
     <div class="work-ly">
+
+    <div class="work-cl">
+        <div class="work-deets">
+          <a href="works/evolve-credit" class="project-wrap">
+            <div class="project-box">
+              <img src="img/evolve.png" alt="" class="project-img">
+            </div>
+            <div class="project-text">
+              <h4>Evolve Credit Loan App</h4>
+              <p>UI/UX design</p>
+            </div>
+          </a>
+        </div>
+      </div>
 
       <div class="work-cl">
         <div class="work-deets">
@@ -41,6 +55,20 @@
           </a>
         </div>
       </div>
+
+      <!-- <div class="work-cl">
+        <div class="work-deets">
+          <a href="works/malta-gozo" class="project-wrap">
+            <div class="project-box">
+              <img src="img/afrisoc-web.png" alt="" class="project-img">
+            </div>
+            <div class="project-text">
+              <h4>Malta Gozo</h4>
+              <p>UI/UX design</p>
+            </div>
+          </a>
+        </div>
+      </div> -->
       
     </div>
   </div>

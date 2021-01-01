@@ -13,13 +13,14 @@
 
 <section id="contact">
   <div class="contact container">
-    <h3>Kindly fill this form</h3>
-    <form action="" method="post" name="contact" class="contact-form">
-       <input type="text" placeholder="What's your name?" name="name" id="name"> <br>
-       <input type="email" placeholder="Enter our email" name="email" id="email"> <br>
-       <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell me about your project" ></textarea><br>
+    <p class="title-text">Kindly fill this form</p>
+    <form action="forms/contact.php" method="post" name="contact" class="contact-form">
+       <input type="text" placeholder="What's your name?" name="name" id="name" required> <br>
+       <input type="email" placeholder="Enter our email" name="email" id="email" required> <br>
+       <input type="tel" placeholder="your phone number?" name="phone" id="phone" required> <br>
+       <textarea name="message" id="message" cols="30" rows="10" placeholder="Talk to me" ></textarea><br>
        <div>
-        <input type="submit" class="btn" value="submit"> 
+        <input type="submit" name="submit" class="btn" value="submit"> 
        </div>
       </form>
   </div>
@@ -35,7 +36,7 @@
         </div>
         <div class="circle-text">
           <h2>Trying to collaborate on a project. I freelance.</h2>
-          <a href="#"><h2 class="talk">Let's Talk Asap</h2></a>
+          <a href="mailto:sylvanwachokor@icloud.com"><h2 class="talk">Let's Talk Asap</h2></a>
         </div>
       </div>
       

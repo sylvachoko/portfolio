@@ -2,9 +2,9 @@
 $(window).scroll(function(event){
     var s = $(window).scrollTop();
     if (s > 0){
-        $('.navbar').addClass('nav-scrolled');
+        $('.nav').addClass('nav-scrolled');
     } else {
-        $('.navbar').removeClass('nav-scrolled');
+        $('.nav').removeClass('nav-scrolled');
     }
   });
 

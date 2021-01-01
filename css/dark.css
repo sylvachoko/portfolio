@@ -21,7 +21,44 @@
     .nav-scrolled{
       background: #121212c4;
     }
-    
+    .just{
+      background-color: #CBCECF;
+    }
+    .afrisoc{
+      background-color: #0461A8;
+    }
+    .rotex{
+      background-color: #C5C3BC;
+    }
+    .project-text{
+      color: #f0f4f8;
+    }
+    .about{
+      background-color: #382F7A;
+    }
+    .about-btn{
+      background-color: #453B94;
+    }
+    .circle-circle{
+      background-color: #8D8D8D ;
+    }
+    .caramel{
+      background-color: #cfd882 !important;
+    }
+    .contact-form input, .contact-form textarea{
+      background-color: #7a7a7a;
+      color: #e2e2e2;
+    }
+    .form-style{
+      background-color: #7a7a7a;
+    }
+    .talk{
+      color: #413983;
+    }
+    ::placeholder{
+      color: #b4b4b4;
+      font-size: 20px;
+    }
 }
 
 /* end dark mode */

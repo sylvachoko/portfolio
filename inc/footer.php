@@ -8,19 +8,53 @@
 
       <div class="footer-social">
         <div class="social-icon">
-         <a href="http://twitter.com/chokomilogram" target="_blank"><img src="<?php echo $folder ?>img/twitter.svg" alt="Twitter"></a> 
-        </div>
+         <a href="http://twitter.com/chokomilogram" target="_blank">
+         <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/twitter-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/twitter.svg">
+         </picture>
+         </div>
+
         <div class="social-icon">
-         <a href="http://instagram.com/sylva.design" target="_blank"><img src="<?php echo $folder ?>img/instagram.svg" alt="Instagram"></a> 
+         <a href="http://instagram.com/sylva.design" target="_blank">
+         <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/instagram-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/instagram.svg">
+         </picture>
         </div>
+
         <div class="social-icon">
-         <a href="http://behance.net/chokomilogram" target="_blank"><img src="<?php echo $folder ?>img/behance.svg" alt="Twitter"></a> 
+         <a href="http://behance.net/chokomilogram" target="_blank">
+         <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/behance-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/behance.svg">
+         </picture>
         </div>
+
         <div class="social-icon">
-         <a href="http://dribbble.com/Nwachokor" target="_blank"><img src="<?php echo $folder ?>img/dribble.svg" alt="Dribble"></a> 
+         <a href="http://dribbble.com/Nwachokor" target="_blank">
+         <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/dribble-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/dribble.svg">
+         </picture>
         </div>
+
         <div class="social-icon">
-         <a href="https://linkedin.com/in/sylva-nwachokor/" target="_blank"><img src="<?php echo $folder ?>img/linkedin.svg" alt="linkedin"></a> 
+         <a href="https://linkedin.com/in/sylva-nwachokor/" target="_blank">
+         <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/linkedin-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/linkedin.svg">
+         </picture>
         </div>
       </div>
 
@@ -28,7 +62,12 @@
           <a href="https://api.whatsapp.com/send?phone=23407018009507" target="_blank">
         <div class="footer-email-deets">
             <div class="footer-email-icon">
-              <img src="<?php echo $folder ?>img/Icon simple-whatsapp.svg" alt="email icon">
+            <picture>
+              <source 
+                srcset="<?php echo $folder ?>img/whatsapp-white.svg" 
+                media="(prefers-color-scheme: dark)">
+              <img src="<?php echo $folder ?>img/whatsapp.svg">
+            </picture>
             </div>
             <div class="footer-email-email">
               <p></p>
@@ -45,5 +84,5 @@
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="<?php echo $folder ?>js/script.js"></script>
