@@ -380,6 +380,18 @@
   .just{
     background: #DFE6E9;
   }
+  /* timtechville */
+  .tim{
+    background: #fd79a8;
+    color: white;
+  }
+  .tim .text-only p, .tim .text-only h2, .tim .text-only a{
+    color: #FCFCFC !important;
+  }
+  .tim a.see-project{
+    background: url(../img/iconic-circle-arrow-white.svg) no-repeat right center !important;
+    background-size: 15px !important;
+  }
   /* afrisoc */
 .afrisoc{
   background: #0984E3 !important;
